@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 class MyDocument extends Document {
     render() {
         return (
-            <Html lang='en' className='scroll-smooth'>
+            <Html lang='tr' className='scroll-smooth'>
                 <Head />
                 <body className='font-inter relative'>
                     <Main />
