@@ -47,14 +47,14 @@ function Team({ teamItems }) {
                                                     </Link>
                                                 </li>
                                                 <li className='duration-300 hover:text-black mr-[20px]'>
-                                                    <Link href='https://facebook.com/'>
+                                                    <Link href='https://www.facebook.com/Klassmedlazer-1136468556398300/?ref=br_rs'>
                                                         <a>
                                                             <FacebookIcon />
                                                         </a>
                                                     </Link>
                                                 </li>
                                                 <li className='duration-300 hover:text-black mr-[20px]'>
-                                                    <Link href='https://www.instagram.com/'>
+                                                    <Link href='https://www.instagram.com/klassmedlazerepilasyon/'>
                                                         <a>
                                                             <InstagramIcon />
                                                         </a>

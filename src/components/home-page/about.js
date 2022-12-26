@@ -29,7 +29,7 @@ function About() {
                         </p>
                         <Link href='/about'>
                             <a className='boxed-btn text-[18px] leading-[30px]'>
-                                More About Us
+                                Hakkımızda
                             </a>
                         </Link>
                     </div>

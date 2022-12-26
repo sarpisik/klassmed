@@ -23,9 +23,8 @@ function Hero({ heroItems }) {
       loop={true}
     >
       {heroItems?.map((heroItem, i) => {
-        const TwitterIcon = FaIcons[heroItem?.twitterIcon];
         const FacebookIcon = FaIcons[heroItem?.facebookIcon];
-        const GoogleIcon = FaIcons[heroItem?.googleIcon];
+        const InstagramIcon = FaIcons[heroItem?.instagramIcon];
         return (
           <SwiperSlide className="hero-item" key={i}>
             <div className={heroImage}>
@@ -46,23 +45,16 @@ function Hero({ heroItems }) {
                       <span>{heroItem?.heroYear}</span>
                       <ul className="social-box mb-[-140px]">
                         <li className="mb-[25px]">
-                          <Link href="https://example.com/">
-                            <a target="_blank" aria-label="Twitter">
-                              <TwitterIcon />
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="mb-[25px]">
-                          <Link href="https://example.com/">
+                          <Link href="https://www.facebook.com/Klassmedlazer-1136468556398300/?ref=br_rs">
                             <a target="_blank" aria-label="Facebook">
                               <FacebookIcon />
                             </a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="https://example.com/">
-                            <a target="_blank" aria-label="Google">
-                              <GoogleIcon />
+                          <Link href="https://www.instagram.com/klassmedlazerepilasyon/">
+                            <a target="_blank" aria-label="Instagram">
+                              <InstagramIcon />
                             </a>
                           </Link>
                         </li>
@@ -85,7 +77,7 @@ function Hero({ heroItems }) {
                     <div className="hero-slidedown delay-[1200ms]">
                       <Link href="/about">
                         <a className="boxed-btn text-[18px] leading-[30px]">
-                          More About Us
+                          Hakkımızda
                         </a>
                       </Link>
                     </div>

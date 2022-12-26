@@ -139,7 +139,7 @@ function Footer() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href='https://facebook.com/'>
+                                        <Link href='https://www.facebook.com/Klassmedlazer-1136468556398300/?ref=br_rs'>
                                             <a>Facebook</a>
                                         </Link>
                                     </li>
