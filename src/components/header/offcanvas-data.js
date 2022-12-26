@@ -1,27 +1,27 @@
 export const OffcanvasData = [
-    {
-        title: 'Home',
-        path: '/',
-        cName: 'offcanvas-text',
-    },
-    {
-        title: 'Hakkımızda',
-        path: '/about',
-        cName: 'offcanvas-text',
-    },
-    {
-        title: 'Projects',
-        path: '/projects',
-        cName: 'offcanvas-text',
-    },
-    {
-        title: 'Posts',
-        path: '/posts',
-        cName: 'offcanvas-text',
-    },
-    {
-        title: 'Contact',
-        path: '/contact',
-        cName: 'offcanvas-text',
-    },
+  {
+    title: "Home",
+    path: "/",
+    cName: "offcanvas-text",
+  },
+  {
+    title: "Hakkımızda",
+    path: "/about",
+    cName: "offcanvas-text",
+  },
+  {
+    title: "Cihazlarımız",
+    path: "/projects",
+    cName: "offcanvas-text",
+  },
+  {
+    title: "Referanslarımız",
+    path: "/posts",
+    cName: "offcanvas-text",
+  },
+  {
+    title: "İletişim",
+    path: "/contact",
+    cName: "offcanvas-text",
+  },
 ];

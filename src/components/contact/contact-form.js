@@ -1,14 +1,14 @@
 import { AiOutlineRight } from 'react-icons/ai';
 import Link from 'next/link';
 
-function ContactForm() {
+function İletişimForm() {
     return (
         <div className='contact-area md:pt-[145px] pt-[45px] border-[#595959] border-opacity-30 border-b md:pb-160 pb-[60px]'>
             <div className='container'>
                 <div className='lg:grid lg:grid-cols-5'>
                     <div className='contact-info lg:col-span-2 lg:pr-[15px]'>
                         <h2 className='text-[48px] left-[58px] md:pb-[55px] pb-[35px]'>
-                            Contact
+                            İletişim
                         </h2>
                         <h3 className='text-3xl leading-9 font-semibold'>
                             New York,
@@ -89,4 +89,4 @@ function ContactForm() {
     );
 }
 
-export default ContactForm;
+export default İletişimForm;

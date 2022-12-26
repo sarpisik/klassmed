@@ -20,7 +20,7 @@ function Footer() {
                         </div>
                         <div className='fixed-lg:col-span-3 fixed-md:col-span-4 fixed-lm:col-span-6 max-sm:pt-[35px]'>
                             <div className='footer-widget-item'>
-                                <h2 className='title'>Contact</h2>
+                                <h2 className='title'>İletişim</h2>
                                 <ul className='contact-info mt-[25px]'>
                                     <li>
                                         17 Princess Road, London, Greater
@@ -73,7 +73,7 @@ function Footer() {
                                         <Link href='/about'>Hakkımızda</Link>
                                     </li>
                                     <li>
-                                        <Link href='/contact'>Contact</Link>
+                                        <Link href='/contact'>İletişim</Link>
                                     </li>
                                     <li>
                                         <Link href='/about'>Career</Link>

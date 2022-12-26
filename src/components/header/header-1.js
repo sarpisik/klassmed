@@ -75,7 +75,7 @@ function HeaderOne() {
                                         >
                                             <Link href='/projects'>
                                                 <a>
-                                                    <span>Projects</span>
+                                                    <span>Cihazlarımız</span>
                                                 </a>
                                             </Link>
                                         </li>
@@ -88,7 +88,7 @@ function HeaderOne() {
                                         >
                                             <Link href='/posts'>
                                                 <a>
-                                                    <span>Posts</span>
+                                                    <span>Referanslarımız</span>
                                                 </a>
                                             </Link>
                                         </li>
@@ -101,7 +101,7 @@ function HeaderOne() {
                                         >
                                             <Link href='/contact'>
                                                 <a>
-                                                    <span>Contact</span>
+                                                    <span>İletişim</span>
                                                 </a>
                                             </Link>
                                         </li>
