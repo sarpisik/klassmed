@@ -5,7 +5,5 @@ heroYear: 2022
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
-heroCategory: Rustic interior <br /> studio
-heroTitle: Rustic and <br /> Modern
-heroContactInfo: contact@Rustictudio.co
+heroContactInfo: klassmed@gmail.com
 ---

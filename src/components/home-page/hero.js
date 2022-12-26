@@ -93,7 +93,7 @@ function Hero({ heroItems }) {
                 </div>
               </div>
               <div className="info text-white hover:text-primary transition-all text-[14px] uppercase absolute bottom-[100px] sm:right-[70px] right-auto z-[2]">
-                <Link href="tel:+contact@Rustictudio.co">
+                <Link href="tel:+klassmed@gmail.com">
                   {heroItem?.heroContactInfo}
                 </Link>
               </div>

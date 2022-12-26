@@ -12,14 +12,14 @@ function PageBanner() {
                         About Us
                     </h2>
                     <div className='info text-white hover:text-primary transition-all text-[14px] pt-[15px] uppercase block lm:hidden'>
-                        <Link href='tel:+contact@Rustictudio.co'>
-                            contact@Rustictudio.co
+                        <Link href='tel:+klassmed@gmail.com'>
+                            klassmed@gmail.com
                         </Link>
                     </div>
                 </div>
                 <div className='info text-white hover:text-primary transition-all text-[14px] uppercase absolute bottom-[100px] xl:right-[70px] right-[15px] z-[2] hidden lm:block'>
-                    <Link href='tel:+contact@Rustictudio.co'>
-                        contact@Rustictudio.co
+                    <Link href='tel:+klassmed@gmail.com'>
+                        klassmed@gmail.com
                     </Link>
                 </div>
             </div>
