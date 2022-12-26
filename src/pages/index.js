@@ -4,7 +4,7 @@ import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import HeaderOne from '../components/header/header-1';
 import Hero from '../components/home-page/hero';
 import Services from '../components/home-page/services';
-import About from '../components/home-page/about';
+import Hakkımızda from '../components/home-page/about';
 import PricingTab from '../components/home-page/pricing-tab';
 import Testimonial from '../components/home-page/testimonial';
 import Brand from '../components/home-page/brand';
@@ -19,9 +19,9 @@ function HomePage(props) {
             </Head>
             <HeaderOne />
             <Hero heroItems={props.heroItems} />
-            <Services services={props.services} />
+            <Services />
             <LatestProject projects={props.projects} />
-            <About />
+            <Hakkımızda />
             <PricingTab pricingItems={props.pricingItems} />
             <Testimonial testimonialItems={props.testimonialItems} />
             <Brand brandItems={props.brandItems} />
@@ -34,7 +34,6 @@ export function getStaticProps() {
     const heroItems = getAllItems('heros');
     const posts = getAllItems('posts');
     const projects = getAllItems('projects');
-    const services = getAllItems('services');
     const pricingItems = getAllItems('pricing');
     const testimonialItems = getAllItems('testimonial');
     const brandItems = getAllItems('brands');
@@ -46,7 +45,6 @@ export function getStaticProps() {
             heroItems,
             projects: LatestProject,
             posts: FeaturedPost,
-            services,
             pricingItems,
             testimonialItems,
             brandItems,

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-function About() {
+function Hakkımızda() {
     const subTitle = `text-[18px] leading-[32px] text-secondary uppercase`;
     const title = `lm:text-[42px] lm:leading-[50px] text-[32px] text-black mb-[35px] lg:max-w-[460px]`;
     const desc = `text-[14px] leading-[25px] text-secondary mb-[80px] lg:max-w-[490px]`;
@@ -11,7 +11,7 @@ function About() {
             <div className='container max-lg:max-w-full fixed-lg:pr-0'>
                 <div className='lg:grid lg:grid-cols-2 max-md:flex max-md:flex-col-reverse'>
                     <div className='about-content max-md:pt-10'>
-                        <span className={subTitle}>About</span>
+                        <span className={subTitle}>Hakkımızda</span>
                         <h2 className={title}>
                             Over 12 years leading and deeps in interiors
                             industrial
@@ -51,4 +51,4 @@ function About() {
     );
 }
 
-export default About;
+export default Hakkımızda;

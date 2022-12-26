@@ -9,7 +9,7 @@ function PageBanner() {
                         Nordic interior studio
                     </span>
                     <h2 className='sm:text-[100px] text-[30px] sm:leading-[110px] text-white max-w-[320px]'>
-                        About Us
+                        Hakkımızda
                     </h2>
                     <div className='info text-white hover:text-primary transition-all text-[14px] pt-[15px] uppercase block lm:hidden'>
                         <Link href='tel:+klassmed@gmail.com'>

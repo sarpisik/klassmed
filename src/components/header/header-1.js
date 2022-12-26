@@ -62,7 +62,7 @@ function HeaderOne() {
                                         >
                                             <Link href='/about'>
                                                 <a>
-                                                    <span>About</span>
+                                                    <span>Hakkımızda</span>
                                                 </a>
                                             </Link>
                                         </li>

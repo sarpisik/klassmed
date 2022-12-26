@@ -70,7 +70,7 @@ function Footer() {
                                 <h2 className='title'>Studio</h2>
                                 <ul className='footer-list mt-[25px]'>
                                     <li>
-                                        <Link href='/about'>About</Link>
+                                        <Link href='/about'>Hakkımızda</Link>
                                     </li>
                                     <li>
                                         <Link href='/contact'>Contact</Link>
