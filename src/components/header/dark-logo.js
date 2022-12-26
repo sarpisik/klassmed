@@ -8,7 +8,7 @@ function DarkLogo() {
                 <Image
                     src='/images/logo/logo-2.png'
                     alt='Logo'
-                    width={70}
+                    width={195}
                     height={70}
                 />
             </a>

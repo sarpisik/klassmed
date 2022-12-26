@@ -8,7 +8,7 @@ function WhiteLogo() {
                 <Image
                     src='/images/logo/logo.png'
                     alt='Logo'
-                    width={70}
+                    width={195}
                     height={70}
                 />
             </a>
