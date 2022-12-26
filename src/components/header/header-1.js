@@ -110,14 +110,14 @@ function HeaderOne() {
                             </div>
                             <div className='lg:col-span-3 col-span-6'>
                                 <div className={`outer-box ${headerCss}`}>
-                                    <ul className='language-list text-white'>
+                                    {/* <ul className='language-list text-white'>
                                         <li>
                                             <Link href='/'>END</Link>
                                         </li>
                                         <li>
                                             <Link href='/'>FRA</Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                     <div className='offcanvas-area'>
                                         <div className='offcanvas'>
                                             <button
