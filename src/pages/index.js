@@ -15,11 +15,7 @@ function HomePage(props) {
     return (
         <Fragment>
             <Head>
-                <title>Rustic - React Business Template</title>
-                <meta
-                    name='description'
-                    content='Rustic - React Business Template is an excellent solution to the web designing needs for your website related to creative agency, business, portfolio, corporate, etc. '
-                />
+                <title>Klassmed</title>
             </Head>
             <HeaderOne />
             <Hero heroItems={props.heroItems} />
