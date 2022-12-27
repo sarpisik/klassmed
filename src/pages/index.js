@@ -5,7 +5,6 @@ import HeaderOne from "../components/header/header-1";
 import Hero from "../components/home-page/hero";
 import Services from "../components/home-page/services";
 import About from "../components/home-page/about";
-import Testimonial from "../components/home-page/testimonial";
 import Brand from "../components/home-page/brand";
 import FeaturedPost from "../components/home-page/featured-post";
 import LatestProject from "../components/home-page/latest-project";
@@ -21,7 +20,6 @@ function HomePage(props) {
       <Services />
       <LatestProject projects={props.projects} />
       <About />
-      <Testimonial testimonialItems={props.testimonialItems} />
       <Brand brandItems={props.brandItems} />
       <FeaturedPost posts={props.posts} />
     </Fragment>
@@ -32,8 +30,6 @@ export function getStaticProps() {
   const heroItems = getAllItems("heros");
   const posts = getAllItems("posts");
   const projects = getAllItems("projects");
-  const pricingItems = getAllItems("pricing");
-  const testimonialItems = getAllItems("testimonial");
   const brandItems = getAllItems("brands");
   const latestProject = getFeaturedItems(projects).reduce(
     (projects, { slug, image, title, order }) => {
@@ -57,8 +53,6 @@ export function getStaticProps() {
       heroItems,
       projects: latestProject,
       posts: FeaturedPost,
-      pricingItems,
-      testimonialItems,
       brandItems,
     },
   };
