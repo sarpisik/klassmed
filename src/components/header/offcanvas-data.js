@@ -1,6 +1,6 @@
 export const OffcanvasData = [
   {
-    title: "Home",
+    title: "Anasayfa",
     path: "/",
     cName: "offcanvas-text",
   },
