@@ -7,7 +7,7 @@ import * as FaIcons from "react-icons/fa";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 function Hero({ heroItems }) {
-  const heroImage = `relative w-full md:h-[980px] h-[725px] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black before:opacity-30 before:z-[1] before:pointer-events-none overflow-hidden`;
+  const heroImage = `relative w-full md:h-[391px] lg:h-[506px] xl:h-[612px] xxl:h-[980px] h-[667px] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black before:opacity-30 before:z-[1] before:pointer-events-none overflow-hidden`;
   const heroContent = `absolute sm:w-[calc(100%_-_100px)] left-auto top-1/2 transform translate-y-[-50%] z-[2]`;
   return (
     <Swiper
