@@ -5,7 +5,6 @@ import HeaderOne from "../components/header/header-1";
 import Hero from "../components/home-page/hero";
 import Services from "../components/home-page/services";
 import About from "../components/home-page/about";
-import PricingTab from "../components/home-page/pricing-tab";
 import Testimonial from "../components/home-page/testimonial";
 import Brand from "../components/home-page/brand";
 import FeaturedPost from "../components/home-page/featured-post";
@@ -22,7 +21,6 @@ function HomePage(props) {
       <Services />
       <LatestProject projects={props.projects} />
       <About />
-      <PricingTab pricingItems={props.pricingItems} />
       <Testimonial testimonialItems={props.testimonialItems} />
       <Brand brandItems={props.brandItems} />
       <FeaturedPost posts={props.posts} />
