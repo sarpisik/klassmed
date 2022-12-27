@@ -1,5 +1,4 @@
 import ProjectSlider from "../projects/projects-slider";
-import Link from "next/link";
 
 function LatestProject(props) {
   return (
