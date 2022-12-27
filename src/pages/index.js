@@ -1,12 +1,13 @@
 import { Fragment } from "react";
 import Head from "next/head";
-import { getAllItems, getFeaturedItems } from "../lib/items-util";
+
 import HeaderOne from "../components/header/header-1";
-import Hero from "../components/home-page/hero";
-import Services from "../components/home-page/services";
 import About from "../components/home-page/about";
 import FeaturedPost from "../components/home-page/featured-post";
+import Hero from "../components/home-page/hero";
 import LatestProject from "../components/home-page/latest-project";
+import Services from "../components/home-page/services";
+import { getAllItems, getFeaturedItems } from "../lib/items-util";
 
 function HomePage(props) {
   return (
@@ -26,9 +27,7 @@ function HomePage(props) {
 
 export function getStaticProps() {
   const heroItems = getAllItems("heros");
-  const posts = getAllItems("posts");
-  const projects = getAllItems("projects");
-  const latestProject = getFeaturedItems(projects).reduce(
+  const latestProject = getFeaturedItems(getAllItems("projects")).reduce(
     (projects, { slug, image, title, order }) => {
       const dOrder = Number(order);
 
@@ -43,7 +42,7 @@ export function getStaticProps() {
     },
     []
   );
-  const FeaturedPost = getFeaturedItems(posts);
+  const FeaturedPost = getFeaturedItems(getAllItems("posts"));
 
   return {
     props: {
